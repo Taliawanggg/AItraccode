@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="680" viewBox="0 0 600 680">
+  <rect width="600" height="680" fill="#fdf6e3"/>
+  <!-- 云朵 -->
+  <ellipse cx="90" cy="80" rx="40" ry="18" fill="#fffdfa" opacity=".9"/>
+  <ellipse cx="150" cy="95" rx="28" ry="13" fill="#fffdfa" opacity=".9"/>
+  <ellipse cx="520" cy="70" rx="36" ry="16" fill="#fffdfa" opacity=".9"/>
+  <ellipse cx="560" cy="90" rx="22" ry="11" fill="#fffdfa" opacity=".9"/>
+  <!-- 顶部计分条 -->
+  <rect x="60" y="50" width="480" height="56" rx="18" fill="#fffdfa" stroke="#3f3a44" stroke-width="6"/>
+  <path d="M100 88 c-6 -10 -21 -5 -16 7 c3 8 16 13 16 13 c0 0 13 -5 16 -13 c5 -12 -10 -17 -16 -7 Z" fill="#e784a0"/>
+  <rect x="130" y="68" width="320" height="20" rx="10" fill="#fdeef3"/>
+  <rect x="130" y="68" width="200" height="20" rx="10" fill="#f8cdd9"/>
+  <circle cx="498" cy="78" r="16" fill="#f9ecc8" stroke="#3f3a44" stroke-width="5"/>
+  <!-- 糖果 4×4 -->
+  <g>
+    <rect x="85" y="170" width="88" height="88" rx="22" fill="#f8cdd9"/>
+    <circle cx="109" cy="196" r="9" fill="#fffdfa" opacity=".75"/>
+    <circle cx="119" cy="216" r="4" fill="#3f3a44"/><circle cx="139" cy="216" r="4" fill="#3f3a44"/>
+    <path d="M119 228 q10 8 20 0" fill="none" stroke="#3f3a44" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <rect x="203" y="170" width="88" height="88" rx="22" fill="#c2e5d3"/>
+  <circle cx="227" cy="196" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="321" y="170" width="88" height="88" rx="22" fill="#f9ecc8"/>
+  <circle cx="345" cy="196" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="439" y="170" width="88" height="88" rx="22" fill="#c9dcf2"/>
+  <circle cx="463" cy="196" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="85" y="288" width="88" height="88" rx="22" fill="#c9dcf2"/>
+  <circle cx="109" cy="314" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="203" y="288" width="88" height="88" rx="22" fill="#3f3a44"/>
+  <circle cx="247" cy="330" r="10" fill="#f8cdd9"/>
+  <circle cx="223" cy="318" r="6" fill="#e784a0"/>
+  <circle cx="271" cy="318" r="6" fill="#e784a0"/>
+  <line x1="247" y1="296" x2="247" y2="284" stroke="#f9ecc8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="247" cy="280" r="7" fill="#f8cdd9"/>
+  <rect x="321" y="288" width="88" height="88" rx="22" fill="#f8cdd9"/>
+  <circle cx="345" cy="314" r="9" fill="#fffdfa" opacity=".75"/>
+  <circle cx="355" cy="334" r="4" fill="#3f3a44"/><circle cx="375" cy="334" r="4" fill="#3f3a44"/>
+  <path d="M355 346 q10 8 20 0" fill="none" stroke="#3f3a44" stroke-width="4" stroke-linecap="round"/>
+  <rect x="439" y="288" width="88" height="88" rx="22" fill="#c2e5d3"/>
+  <circle cx="463" cy="314" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="85" y="406" width="88" height="88" rx="22" fill="#f9ecc8"/>
+  <circle cx="109" cy="432" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="203" y="406" width="88" height="88" rx="22" fill="#dcd6f2"/>
+  <circle cx="227" cy="432" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="321" y="406" width="88" height="88" rx="22" fill="#c9dcf2"/>
+  <circle cx="345" cy="432" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="439" y="406" width="88" height="88" rx="22" fill="#dcd6f2"/>
+  <circle cx="463" cy="432" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="85" y="524" width="88" height="88" rx="22" fill="#c2e5d3"/>
+  <circle cx="109" cy="550" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="203" y="524" width="88" height="88" rx="22" fill="#f9ecc8"/>
+  <circle cx="227" cy="550" r="9" fill="#fffdfa" opacity=".75"/>
+  <circle cx="237" cy="570" r="4" fill="#3f3a44"/><circle cx="257" cy="570" r="4" fill="#3f3a44"/>
+  <path d="M237 582 q10 8 20 0" fill="none" stroke="#3f3a44" stroke-width="4" stroke-linecap="round"/>
+  <rect x="321" y="524" width="88" height="88" rx="22" fill="#dcd6f2"/>
+  <circle cx="345" cy="550" r="9" fill="#fffdfa" opacity=".75"/>
+  <rect x="439" y="524" width="88" height="88" rx="22" fill="#f8cdd9"/>
+  <circle cx="463" cy="550" r="9" fill="#fffdfa" opacity=".75"/>
+  <!-- 底部剩余步数 -->
+  <rect x="60" y="624" width="480" height="36" rx="18" fill="#fffdfa" stroke="#3f3a44" stroke-width="5"/>
+  <circle cx="94" cy="642" r="8" fill="#f8cdd9"/>
+  <circle cx="120" cy="642" r="8" fill="#c2e5d3"/>
+  <circle cx="146" cy="642" r="8" fill="#c9dcf2"/>
+</svg>

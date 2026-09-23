@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fdeef3"/>
+  <!-- 墙面装饰 -->
+  <circle cx="90" cy="80" r="34" fill="#f9ecc8"/>
+  <circle cx="716" cy="72" r="26" fill="#c9dcf2"/>
+  <circle cx="676" cy="136" r="10" fill="#f8cdd9"/>
+  <circle cx="150" cy="140" r="8" fill="#c2e5d3"/>
+  <path d="M170 104 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6 Z" fill="#f9ecc8"/>
+  <!-- 地板 -->
+  <rect y="468" width="800" height="132" fill="#f9ecc8"/>
+  <line x1="0" y1="468" x2="800" y2="468" stroke="#ecd9a4" stroke-width="4"/>
+  <!-- 盆栽 -->
+  <ellipse cx="96" cy="412" rx="16" ry="46" fill="#c2e5d3" stroke="#3f3a44" stroke-width="5" transform="rotate(-20 96 412)"/>
+  <ellipse cx="144" cy="412" rx="16" ry="46" fill="#c2e5d3" stroke="#3f3a44" stroke-width="5" transform="rotate(20 144 412)"/>
+  <ellipse cx="120" cy="400" rx="18" ry="60" fill="#c2e5d3" stroke="#3f3a44" stroke-width="5"/>
+  <rect x="88" y="456" width="64" height="16" rx="8" fill="#e784a0" stroke="#3f3a44" stroke-width="6"/>
+  <path d="M96 472 L144 472 L136 544 L104 544 Z" fill="#e784a0" stroke="#3f3a44" stroke-width="6" stroke-linejoin="round"/>
+  <!-- 猫：身体 + 耳朵 + 脸 -->
+  <ellipse cx="300" cy="352" rx="96" ry="56" fill="#fffdfa" stroke="#3f3a44" stroke-width="7"/>
+  <path d="M222 224 L240 146 L296 184 Z" fill="#fffdfa" stroke="#3f3a44" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M378 224 L360 146 L304 184 Z" fill="#fffdfa" stroke="#3f3a44" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M238 204 L248 164 L280 188 Z" fill="#f8cdd9"/>
+  <path d="M362 204 L352 164 L320 188 Z" fill="#f8cdd9"/>
+  <ellipse cx="300" cy="268" rx="104" ry="88" fill="#fffdfa" stroke="#3f3a44" stroke-width="7"/>
+  <ellipse cx="262" cy="258" rx="10" ry="14" fill="#3f3a44"/>
+  <ellipse cx="338" cy="258" rx="10" ry="14" fill="#3f3a44"/>
+  <ellipse cx="300" cy="286" rx="12" ry="9" fill="#f5c26b"/>
+  <ellipse cx="236" cy="296" rx="16" ry="9" fill="#f8cdd9" opacity=".85"/>
+  <ellipse cx="364" cy="296" rx="16" ry="9" fill="#f8cdd9" opacity=".85"/>
+  <g stroke="#3f3a44" stroke-width="5" stroke-linecap="round">
+    <line x1="206" y1="262" x2="162" y2="254"/>
+    <line x1="206" y1="284" x2="160" y2="290"/>
+    <line x1="394" y1="262" x2="438" y2="254"/>
+    <line x1="394" y1="284" x2="440" y2="290"/>
+  </g>
+  <!-- 桌子 -->
+  <rect x="120" y="378" width="560" height="26" rx="13" fill="#e784a0" stroke="#3f3a44" stroke-width="6"/>
+  <rect x="156" y="404" width="22" height="140" rx="8" fill="#d16f8d" stroke="#3f3a44" stroke-width="6"/>
+  <rect x="622" y="404" width="22" height="140" rx="8" fill="#d16f8d" stroke="#3f3a44" stroke-width="6"/>
+  <!-- 爪子 -->
+  <ellipse cx="262" cy="372" rx="24" ry="11" fill="#fffdfa" stroke="#3f3a44" stroke-width="6"/>
+  <ellipse cx="330" cy="372" rx="24" ry="11" fill="#fffdfa" stroke="#3f3a44" stroke-width="6"/>
+  <!-- 笔记本电脑 -->
+  <rect x="430" y="266" width="168" height="102" rx="10" fill="#fffdfa" stroke="#3f3a44" stroke-width="7"/>
+  <line x1="455" y1="292" x2="519" y2="292" stroke="#e784a0" stroke-width="9" stroke-linecap="round"/>
+  <line x1="455" y1="312" x2="551" y2="312" stroke="#c9dcf2" stroke-width="9" stroke-linecap="round"/>
+  <line x1="455" y1="332" x2="507" y2="332" stroke="#c2e5d3" stroke-width="9" stroke-linecap="round"/>
+  <rect x="416" y="364" width="196" height="14" rx="7" fill="#dcd6f2" stroke="#3f3a44" stroke-width="6"/>
+  <!-- 咖啡杯 -->
+  <rect x="628" y="342" width="46" height="36" rx="8" fill="#fffdfa" stroke="#3f3a44" stroke-width="6"/>
+  <path d="M674 350 C696 350 696 372 672 372" fill="none" stroke="#3f3a44" stroke-width="6"/>
+  <path d="M640 324 c-6 -10 6 -14 0 -24" fill="none" stroke="#e784a0" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+  <path d="M658 324 c-6 -10 6 -14 0 -24" fill="none" stroke="#e784a0" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+  <!-- 漂浮元素 -->
+  <path d="M700 216 c-9 -15 -32 -8 -25 11 c5 13 25 20 25 20 c0 0 20 -7 25 -20 c7 -19 -16 -26 -25 -11 Z" fill="#e784a0"/>
+  <path d="M540 120 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6 Z" fill="#c2e5d3"/>
+</svg>

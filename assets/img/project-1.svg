@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fdeef3"/>
+  <circle cx="40" cy="40" r="12" fill="#f8cdd9"/>
+  <circle cx="760" cy="60" r="14" fill="#dcd6f2"/>
+  <circle cx="740" cy="560" r="10" fill="#c2e5d3"/>
+  <ellipse cx="400" cy="562" rx="320" ry="14" fill="#f8cdd9" opacity=".55"/>
+  <!-- 浏览器窗口 -->
+  <rect x="70" y="54" width="660" height="492" rx="20" fill="#fffdfa" stroke="#3f3a44" stroke-width="7"/>
+  <rect x="71" y="55" width="658" height="46" rx="19" fill="#fce8ee"/>
+  <rect x="71" y="79" width="658" height="22" fill="#fce8ee"/>
+  <circle cx="100" cy="78" r="7" fill="#e784a0"/>
+  <circle cx="124" cy="78" r="7" fill="#f9ecc8"/>
+  <circle cx="148" cy="78" r="7" fill="#c2e5d3"/>
+  <rect x="180" y="66" width="320" height="24" rx="12" fill="#fffdfa" stroke="#f0dfe3" stroke-width="4"/>
+  <!-- 侧边分类栏 -->
+  <rect x="92" y="124" width="128" height="398" rx="14" fill="#c2e5d3"/>
+  <circle cx="156" cy="160" r="18" fill="#fffdfa" stroke="#3f3a44" stroke-width="5"/>
+  <rect x="108" y="200" width="96" height="20" rx="10" fill="#f8cdd9"/>
+  <rect x="108" y="244" width="96" height="20" rx="10" fill="#fffdfa" opacity=".9"/>
+  <rect x="108" y="288" width="96" height="20" rx="10" fill="#fffdfa" opacity=".9"/>
+  <rect x="108" y="332" width="96" height="20" rx="10" fill="#fffdfa" opacity=".9"/>
+  <!-- 搜索栏 -->
+  <rect x="242" y="124" width="464" height="38" rx="19" fill="#fffdfa" stroke="#f0dfe3" stroke-width="5"/>
+  <circle cx="268" cy="143" r="8" fill="none" stroke="#3f3a44" stroke-width="5"/>
+  <line x1="275" y1="150" x2="282" y2="157" stroke="#3f3a44" stroke-width="5" stroke-linecap="round"/>
+  <rect x="294" y="136" width="120" height="14" rx="7" fill="#eadfe2"/>
+  <!-- 商品卡片 ×3 -->
+  <g>
+    <rect x="242" y="182" width="136" height="216" rx="14" fill="#fffdfa" stroke="#f0dfe3" stroke-width="5"/>
+    <rect x="252" y="192" width="116" height="110" rx="10" fill="#f8cdd9"/>
+    <circle cx="310" cy="247" r="16" fill="#fffdfa" opacity=".75"/>
+    <rect x="252" y="314" width="96" height="12" rx="6" fill="#eadfe2"/>
+    <rect x="252" y="334" width="70" height="12" rx="6" fill="#eadfe2"/>
+    <rect x="252" y="360" width="58" height="24" rx="12" fill="#f8cdd9"/>
+  </g>
+  <g>
+    <rect x="406" y="182" width="136" height="216" rx="14" fill="#fffdfa" stroke="#f0dfe3" stroke-width="5"/>
+    <rect x="416" y="192" width="116" height="110" rx="10" fill="#f9ecc8"/>
+    <circle cx="474" cy="247" r="16" fill="#fffdfa" opacity=".75"/>
+    <rect x="416" y="314" width="96" height="12" rx="6" fill="#eadfe2"/>
+    <rect x="416" y="334" width="70" height="12" rx="6" fill="#eadfe2"/>
+    <rect x="416" y="360" width="58" height="24" rx="12" fill="#f9ecc8"/>
+  </g>
+  <g>
+    <rect x="570" y="182" width="136" height="216" rx="14" fill="#fffdfa" stroke="#f0dfe3" stroke-width="5"/>
+    <rect x="580" y="192" width="116" height="110" rx="10" fill="#c9dcf2"/>
+    <circle cx="638" cy="247" r="16" fill="#fffdfa" opacity=".75"/>
+    <rect x="580" y="314" width="96" height="12" rx="6" fill="#eadfe2"/>
+    <rect x="580" y="334" width="70" height="12" rx="6" fill="#eadfe2"/>
+    <rect x="580" y="360" width="58" height="24" rx="12" fill="#c9dcf2"/>
+  </g>
+  <!-- 推荐位 -->
+  <rect x="242" y="414" width="464" height="84" rx="14" fill="#fdeef3" stroke="#f0dfe3" stroke-width="5"/>
+  <circle cx="282" cy="456" r="20" fill="#e784a0"/>
+  <rect x="316" y="432" width="180" height="14" rx="7" fill="#fffdfa"/>
+  <rect x="316" y="458" width="120" height="14" rx="7" fill="#fffdfa"/>
+  <rect x="636" y="438" width="52" height="36" rx="10" fill="#f8cdd9"/>
+  <!-- 漂浮小心心 -->
+  <path d="M236 96 c-7 -12 -26 -6 -20 9 c4 10 20 16 20 16 c0 0 16 -6 20 -16 c6 -15 -13 -21 -20 -9 Z" fill="#e784a0"/>
+  <path d="M712 128 c-6 -10 -21 -5 -16 7 c3 8 16 13 16 13 c0 0 13 -5 16 -13 c5 -12 -10 -17 -16 -7 Z" fill="#dcd6f2"/>
+</svg>

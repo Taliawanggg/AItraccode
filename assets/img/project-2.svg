@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="680" viewBox="0 0 600 680">
+  <rect width="600" height="680" fill="#efecfa"/>
+  <circle cx="60" cy="80" r="20" fill="#f8cdd9"/>
+  <circle cx="540" cy="120" r="16" fill="#c2e5d3"/>
+  <circle cx="520" cy="620" r="22" fill="#f9ecc8"/>
+  <circle cx="80" cy="600" r="14" fill="#c9dcf2"/>
+  <path d="M300 60 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6 Z" fill="#f9ecc8"/>
+  <!-- 手机 A：拍照记录 -->
+  <g transform="rotate(-6 180 340)">
+    <rect x="70" y="120" width="220" height="440" rx="30" fill="#fffdfa" stroke="#3f3a44" stroke-width="7"/>
+    <rect x="86" y="150" width="188" height="378" rx="18" fill="#fffdfa" stroke="#f0dfe3" stroke-width="4"/>
+    <rect x="140" y="132" width="80" height="10" rx="5" fill="#eadfe2"/>
+    <rect x="102" y="166" width="156" height="26" rx="13" fill="#f8cdd9"/>
+    <circle cx="180" cy="300" r="56" fill="#f9ecc8" stroke="#3f3a44" stroke-width="6"/>
+    <rect x="171" y="270" width="18" height="34" rx="9" fill="#e784a0"/>
+    <path d="M160 298 a20 20 0 0 0 40 0" fill="none" stroke="#e784a0" stroke-width="5" stroke-linecap="round"/>
+    <line x1="180" y1="318" x2="180" y2="330" stroke="#e784a0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M146 288 a36 36 0 0 1 9 -19" fill="none" stroke="#e784a0" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+    <path d="M214 288 a36 36 0 0 0 -9 -19" fill="none" stroke="#e784a0" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+    <rect x="102" y="392" width="156" height="34" rx="12" fill="#fdeef3"/>
+    <circle cx="124" cy="409" r="10" fill="#e784a0"/>
+    <rect x="102" y="438" width="156" height="34" rx="12" fill="#e7f5ee"/>
+    <circle cx="124" cy="455" r="10" fill="#7fbfa0"/>
+    <rect x="102" y="484" width="156" height="34" rx="12" fill="#fdeef3"/>
+    <circle cx="124" cy="501" r="10" fill="#dcd6f2"/>
+  </g>
+  <!-- 手机 B：每周报告 -->
+  <g transform="rotate(5 420 330)">
+    <rect x="310" y="110" width="220" height="440" rx="30" fill="#fffdfa" stroke="#3f3a44" stroke-width="7"/>
+    <rect x="326" y="140" width="188" height="378" rx="18" fill="#fffdfa" stroke="#f0dfe3" stroke-width="4"/>
+    <rect x="380" y="122" width="80" height="10" rx="5" fill="#eadfe2"/>
+    <rect x="342" y="166" width="100" height="16" rx="8" fill="#dcd6f2"/>
+    <rect x="342" y="192" width="60" height="12" rx="6" fill="#eadfe2"/>
+    <circle cx="420" cy="290" r="48" fill="none" stroke="#f8cdd9" stroke-width="18"/>
+    <circle cx="420" cy="290" r="48" fill="none" stroke="#e784a0" stroke-width="18" stroke-dasharray="150 302" transform="rotate(-90 420 290)"/>
+    <circle cx="420" cy="290" r="8" fill="#fffdfa"/>
+    <line x1="338" y1="500" x2="502" y2="500" stroke="#eadfe2" stroke-width="5" stroke-linecap="round"/>
+    <rect x="346" y="440" width="22" height="60" rx="8" fill="#c9dcf2"/>
+    <rect x="378" y="410" width="22" height="90" rx="8" fill="#c2e5d3"/>
+    <rect x="410" y="380" width="22" height="120" rx="8" fill="#f8cdd9"/>
+    <rect x="442" y="420" width="22" height="80" rx="8" fill="#f9ecc8"/>
+    <rect x="474" y="450" width="22" height="50" rx="8" fill="#dcd6f2"/>
+  </g>
+  <!-- 漂浮元素 -->
+  <path d="M300 108 c-8 -13 -28 -7 -22 10 c4 11 22 17 22 17 c0 0 18 -6 22 -17 c6 -17 -14 -23 -22 -10 Z" fill="#e784a0"/>
+  <ellipse cx="566" cy="330" rx="12" ry="26" fill="#c2e5d3" transform="rotate(24 566 330)"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#eef4fb"/>
+  <circle cx="24" cy="40" r="10" fill="#c9dcf2"/>
+  <circle cx="780" cy="370" r="12" fill="#f8cdd9"/>
+  <!-- 大屏外框 -->
+  <rect x="40" y="28" width="720" height="344" rx="18" fill="#fffdfa" stroke="#3f3a44" stroke-width="7"/>
+  <rect x="64" y="46" width="140" height="26" rx="13" fill="#f8cdd9"/>
+  <circle cx="688" cy="59" r="6" fill="#c9dcf2"/>
+  <circle cx="712" cy="59" r="6" fill="#f9ecc8"/>
+  <circle cx="736" cy="59" r="6" fill="#e784a0"/>
+  <line x1="60" y1="84" x2="740" y2="84" stroke="#eef4fb" stroke-width="4"/>
+  <!-- 左侧：地图热力 -->
+  <path d="M110 150 C90 190 96 250 130 290 C170 330 240 336 290 310 C340 286 356 240 340 196 C322 150 260 120 210 128 C170 134 128 122 110 150 Z" fill="#c9dcf2" opacity=".9"/>
+  <circle cx="170" cy="200" r="20" fill="#e784a0" opacity=".35"/>
+  <circle cx="170" cy="200" r="12" fill="#e784a0" opacity=".85"/>
+  <circle cx="220" cy="250" r="15" fill="#e784a0" opacity=".3"/>
+  <circle cx="220" cy="250" r="9" fill="#e784a0" opacity=".85"/>
+  <circle cx="262" cy="172" r="12" fill="#e784a0" opacity=".3"/>
+  <circle cx="262" cy="172" r="7" fill="#e784a0" opacity=".85"/>
+  <circle cx="300" cy="242" r="11" fill="#e784a0" opacity=".3"/>
+  <circle cx="300" cy="242" r="6" fill="#e784a0" opacity=".85"/>
+  <circle cx="140" cy="262" r="11" fill="#e784a0" opacity=".3"/>
+  <circle cx="140" cy="262" r="6" fill="#e784a0" opacity=".85"/>
+  <!-- 右侧：折线图 -->
+  <line x1="400" y1="150" x2="740" y2="150" stroke="#f3f0f1" stroke-width="3"/>
+  <line x1="400" y1="200" x2="740" y2="200" stroke="#f3f0f1" stroke-width="3"/>
+  <line x1="400" y1="250" x2="740" y2="250" stroke="#f3f0f1" stroke-width="3"/>
+  <line x1="400" y1="120" x2="400" y2="320" stroke="#eadfe2" stroke-width="5"/>
+  <line x1="400" y1="320" x2="740" y2="320" stroke="#eadfe2" stroke-width="5"/>
+  <polyline points="400,290 450,250 500,270 550,200 600,230 650,160 700,190 740,150" fill="none" stroke="#e784a0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="550" cy="200" r="8" fill="#fffdfa" stroke="#e784a0" stroke-width="5"/>
+  <circle cx="650" cy="160" r="8" fill="#fffdfa" stroke="#e784a0" stroke-width="5"/>
+  <!-- 图例 -->
+  <circle cx="640" cy="106" r="7" fill="#e784a0"/>
+  <rect x="654" y="100" width="50" height="12" rx="6" fill="#eadfe2"/>
+  <circle cx="560" cy="106" r="7" fill="#c9dcf2"/>
+  <rect x="574" y="100" width="50" height="12" rx="6" fill="#eadfe2"/>
+</svg>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>balala · 个人作品集</title>
+<meta name="description" content="balala 的个人作品集——软件工程专业，关注 AI 辅助开发与大语言模型技术。">
+<!-- 主题预应用：在渲染前设置 data-theme，避免首屏闪烁 -->
+<script>
+(function(){try{var t=localStorage.getItem("balala-theme");if(!t&&window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)t="dark";if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}})();
+</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+<link rel="stylesheet" href="css/base.css?v=20260917b">
+<link rel="stylesheet" href="css/layout.css?v=20260917b">
+</head>
+<body>
+
+<!-- ======== 顶部导航 ======== -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner wrap">
+    <a class="nav-logo" href="#top">
+      <img class="nav-avatar" src="assets/img/avatar.jpg?v=2" alt="balala 的头像">
+      <span class="nav-name">balala<em>.portfolio</em></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="页面导航">
+      <a href="#works" data-section="works">作品</a>
+      <a href="#about" data-section="about">关于我</a>
+      <a href="#contact" data-section="contact">联系方式</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+      <span class="theme-icon" aria-hidden="true">🌙</span>
+    </button>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="打开菜单">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ======== 首屏 Hero ======== -->
+  <section class="hero" id="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="hero-overline mono reveal">✿ PORTFOLIO · 广州软件学院</p>
+        <h1 class="hero-title reveal">
+          关注<span class="hl hl-pink">AI 辅助开发</span>和<span class="hl hl-mint">大语言模型</span><br>
+          这里是<em>balala</em>的作品集
+        </h1>
+        <p class="hero-desc reveal">
+          你好，我是 balala，软件工程专业在读。平时主要使用 Python、Java 和 TypeScript
+          进行项目开发，也在持续学习前后端开发、数据可视化和 AI 应用构建。
+          这个页面收录了从记账小程序到 AI 问答助手的四段项目记录，每一件都是从想法动手做成的产品，欢迎往下慢慢翻阅。
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-solid" href="#works">看看我的作品 ↓</a>
+          <a class="btn btn-ghost" href="#contact">联系我</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <span class="blob blob-pink"></span>
+        <span class="blob blob-mint"></span>
+        <span class="blob blob-cream"></span>
+        <span class="blob blob-lavender"></span>
+        <img class="hero-avatar" src="assets/img/avatar.jpg?v=2" alt="balala 的头像">
+        <span class="hero-badge mono">广州<br>在读 ✿</span>
+      </div>
+    </div>
+    <div class="hero-strip mono" aria-hidden="true">
+      <div class="hero-strip-track">
+        <span>PYTHON ✿ JAVA ✿ TYPESCRIPT ✿ DATA VISUALIZATION ✿ AI APPLICATIONS ✿&nbsp;</span>
+        <span>PYTHON ✿ JAVA ✿ TYPESCRIPT ✿ DATA VISUALIZATION ✿ AI APPLICATIONS ✿&nbsp;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== 作品 ======== -->
+  <section class="works" id="works">
+    <div class="wrap">
+      <header class="chapter reveal">
+        <span class="chapter-no mono">01</span>
+        <h2 class="chapter-title">项目经历<span class="chapter-en mono">Projects</span></h2>
+        <p class="chapter-note">从想法到落地的四段记录</p>
+      </header>
+      <div class="project-list" id="projectList"><!-- 由 js/projects.js + js/main.js 渲染 --></div>
+    </div>
+  </section>
+
+  <!-- ======== 关于我 ======== -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <header class="chapter reveal">
+        <span class="chapter-no mono">02</span>
+        <h2 class="chapter-title">关于我<span class="chapter-en mono">About Me</span></h2>
+        <p class="chapter-note">代码之外，也在持续学习</p>
+      </header>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="about-lead">我是<strong>balala</strong>，<strong>广州软件学院</strong>软件工程专业在读，目前主要关注<strong>AI 辅助开发与大语言模型技术</strong>。</p>
+          <p>平时主要使用 Python、Java 和 TypeScript 进行项目开发，也在持续学习前后端开发、数据可视化和 AI 应用构建。从记账小程序、校园交易平台，到数据可视化大屏和 AI 问答助手，我把一个个想法做成了能用的产品。</p>
+          <p>做项目时，我习惯先把需求拆小，尽快做出一个能跑起来的最小版本，再一点点打磨细节；遇到不熟悉的技术，就边查文档边动手验证。最近也在尝试把 RAG、向量检索这些技术用到真实的学习场景里，让大模型真正帮上学习的忙。</p>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3 class="mono">技能 / SKILLS</h3>
+              <ul class="skill-chips">
+                <li class="chip chip-pink">Python</li>
+                <li class="chip chip-mint">Java</li>
+                <li class="chip chip-lavender">TypeScript</li>
+                <li class="chip chip-pink">HTML/CSS</li>
+                <li class="chip chip-mint">C++</li>
+                <li class="chip chip-lavender">MySQL</li>
+              </ul>
+            </div>
+          </div>
+          <blockquote class="about-quote">把想法动手做成能用的产品，是我最享受的事。</blockquote>
+        </div>
+        <aside class="about-side reveal">
+          <figure class="about-figure">
+            <img src="assets/img/about.jpg?v=2" alt="Hello Kitty 在书桌前用电脑学习">
+            <figcaption class="mono">— 中国·广州</figcaption>
+          </figure>
+          <ul class="about-info">
+            <li><span class="k">学校</span>广州软件学院</li>
+            <li><span class="k">专业</span>软件工程</li>
+            <li><span class="k">城市</span>中国·广州</li>
+            <li><span class="k">状态</span>在读</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== 联系方式 ======== -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <header class="chapter reveal">
+        <span class="chapter-no mono">03</span>
+        <h2 class="chapter-title">联系方式<span class="chapter-en mono">Contact</span></h2>
+        <p class="chapter-note">欢迎通过以下方式与我交流</p>
+      </header>
+      <div class="contact-body reveal">
+        <p class="contact-intro">如果你对我的项目感兴趣，或者想交流 AI 辅助开发、大语言模型应用的学习心得，欢迎随时联系我 ✿</p>
+        <a class="contact-mail" href="mailto:balala@example.com">balala<span>@example.com</span></a>
+        <ul class="contact-links">
+          <li><a class="btn btn-ghost" href="https://github.com/balala-dev" target="_blank" rel="noopener">GitHub ↗</a></li>
+          <li><a class="btn btn-ghost" href="https://balala.dev" target="_blank" rel="noopener">个人主页 ↗</a></li>
+          <li><span class="btn btn-ghost" title="微信号：balala">微信：balala</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year">2026</span> balala · 原生 HTML / CSS / JS 手工搭建 <span class="footer-flower">✿</span></p>
+</footer>
+
+<script src="js/projects.js?v=20260917b"></script>
+<script src="js/main.js?v=20260917b"></script>
+</body>
+</html>

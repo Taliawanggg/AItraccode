@@ -1,0 +1,173 @@
+/* =========================================================
+   base.css —— 设计变量（马卡龙色板）、重置、通用元素
+   ========================================================= */
+
+:root {
+  /* 马卡龙色板 —— 浅色主题（默认） */
+  --pink: #f8cdd9;        /* 樱花粉（主色） */
+  --pink-soft: #fdeef3;
+  --pink-deep: #e784a0;
+  --mint: #c2e5d3;        /* 薄荷绿 */
+  --cream: #f9ecc8;       /* 奶油黄 */
+  --lavender: #dcd6f2;    /* 淡紫 */
+  --blue: #c9dcf2;        /* 雾蓝 */
+
+  /* 中性色 */
+  --ink: #3f3a44;
+  --ink-soft: #7c7583;
+  --bg: #fdf9f6;
+  --white: #fffdfa;
+  --line: #eadfe2;
+
+  /* 功能性派生色 —— 便于深色主题统一覆盖 */
+  --pink-text: #b25577;
+  --pink-border: rgba(231, 132, 160, .5);
+  --pink-shadow: rgba(231, 132, 160, .3);
+  --pink-shadow-lg: rgba(231, 132, 160, .35);
+  --shadow-soft: rgba(63, 58, 68, .12);
+
+  /* chip 派生色 */
+  --chip-pink-bg: #fdeef3;
+  --chip-pink-text: #b25577;
+  --chip-mint-bg: #e7f5ee;
+  --chip-mint-text: #3f7d63;
+  --chip-lavender-bg: #efecfa;
+  --chip-lavender-text: #6a5bb8;
+
+  /* pill 文字色 */
+  --pill-text: #5c5462;
+
+  /* 圆角 */
+  --radius-lg: 24px;
+  --radius-md: 16px;
+
+  /* 字体 */
+  --font-display: "Noto Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+  --font-body: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Courier New", monospace;
+
+  --nav-h: 68px;
+}
+
+/* ---------- 深色主题 ---------- */
+[data-theme="dark"] {
+  --pink: #d98ea4;
+  --pink-soft: #3d2633;
+  --pink-deep: #f0a0b8;
+  --mint: #7bbfa0;
+  --cream: #c8b87a;
+  --lavender: #a89cc8;
+  --blue: #8eb0d0;
+
+  --ink: #ece6ec;
+  --ink-soft: #b5adb8;
+  --bg: #1a1720;
+  --white: #24202b;
+  --line: #332d3b;
+
+  --pink-text: #f0a0b8;
+  --pink-border: rgba(240, 160, 184, .5);
+  --pink-shadow: rgba(240, 160, 184, .25);
+  --pink-shadow-lg: rgba(240, 160, 184, .32);
+  --shadow-soft: rgba(0, 0, 0, .35);
+
+  --chip-pink-bg: #3d2633;
+  --chip-pink-text: #f0a0b8;
+  --chip-mint-bg: #1f3830;
+  --chip-mint-text: #9fd4b8;
+  --chip-lavender-bg: #2b2748;
+  --chip-lavender-text: #c0b4e8;
+
+  --pill-text: #d0c8d6;
+}
+
+/* ---------- 重置 ---------- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 16px); }
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.8;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; max-width: 100%; background: var(--pink-soft); }
+/* 深色主题下图片占位背景微调 */
+[data-theme="dark"] img { background: var(--white); }
+a { color: inherit; text-decoration: none; }
+ul, ol { list-style: none; }
+button { font: inherit; border: none; background: none; cursor: pointer; color: inherit; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.35; }
+.mono { font-family: var(--font-mono); }
+::selection { background: var(--pink); color: #fff; }
+
+/* ---------- 首屏标题的高亮词（局部色块） ---------- */
+.hl { position: relative; z-index: 0; padding: 0 .06em; }
+.hl::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -.12em;
+  right: -.12em;
+  bottom: .1em;
+  height: .42em;
+  border-radius: 6px;
+}
+.hl-pink::before { background: var(--pink); }
+.hl-mint::before { background: var(--mint); }
+
+/* ---------- 按钮 ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4em;
+  padding: .7em 1.7em;
+  border-radius: 999px;
+  font-size: .95rem;
+  letter-spacing: .02em;
+  transition: transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease, border-color .25s ease;
+}
+.btn-solid { background: var(--ink); color: var(--white); }
+.btn-solid:hover { background: var(--pink-deep); transform: translateY(-2px); box-shadow: 0 10px 24px var(--pink-shadow-lg); }
+.btn-ghost { border: 1.5px solid var(--ink); color: var(--ink); }
+.btn-ghost:hover { background: var(--pink); border-color: var(--pink-deep); color: #fff; transform: translateY(-2px); }
+
+/* ---------- 标签胶囊（类别 / 技能） ---------- */
+.chip {
+  display: inline-block;
+  padding: .32em 1em;
+  border-radius: 999px;
+  font-size: .85rem;
+  line-height: 1.7;
+}
+.chip-pink { background: var(--chip-pink-bg); color: var(--chip-pink-text); }
+.chip-mint { background: var(--chip-mint-bg); color: var(--chip-mint-text); }
+.chip-lavender { background: var(--chip-lavender-bg); color: var(--chip-lavender-text); }
+
+.pill {
+  display: inline-block;
+  padding: .3em 1.1em;
+  border-radius: 999px;
+  font-size: .78rem;
+  letter-spacing: .1em;
+  color: var(--pill-text);
+}
+.pill-pink { background: var(--pink); }
+.pill-mint { background: var(--mint); }
+.pill-cream { background: var(--cream); }
+.pill-lavender { background: var(--lavender); }
+.pill-blue { background: var(--blue); }
+
+/* ---------- 滚动淡入 ---------- */
+.reveal { opacity: 0; transform: translateY(26px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.is-visible { opacity: 1; transform: none; }
+
+/* ---------- 动效偏好：减弱时全部关闭 ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .hero-strip-track { animation: none; }
+  .blob { animation: none; }
+}
